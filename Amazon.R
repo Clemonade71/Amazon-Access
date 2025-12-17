@@ -9,9 +9,6 @@ library(kernlab)
 library(themis)
 library(doParallel)
 
-# set working directory
-setwd("C:/Users/davis/OneDrive - Brigham Young University/Documents/skool/new/stat 348/AmazonEmployeeAccess/AmazonEmployeeAccess")
-
 # read in training data
 train <- vroom("train.csv")
 test <- vroom("test.csv")
